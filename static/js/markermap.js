@@ -24,10 +24,11 @@ for (let i = 0;i<states.length;i++) {
         // console.log(state,page)
         
         d3.json(url).then(function(response) {
-            console.log(response);
+            // console.log(response);
             let markers = L.markerClusterGroup();
-    //         // get lat and long for each brewery
+
             response.forEach(function(brewery) {
+                // get lat and long for each brewery
                 let lat = parseFloat(brewery.latitude);
                 let long = parseFloat(brewery.longitude);
                 if(lat&&long) {
