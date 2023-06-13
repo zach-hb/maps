@@ -73,7 +73,7 @@ for (let i = 0;i<states.length;i++) {
         let url = `https://api.openbrewerydb.org/v1/breweries?by_state=${state}&page=${page}&per_page=${quantity}`;
         // console.log(state,page)
         d3.json(url).then(function(response) {
-            console.log(response);
+            // console.log(response);
             let heatArray = [];
 
             response.forEach(function(brewery) {
