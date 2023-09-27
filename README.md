@@ -1,7 +1,5 @@
 # maps
 
-breweryheat js file is for heatmap coding
+Use this link to check out the map! https://zach-hb.github.io/maps/
 
-markermap js file is for marker cluster group code
-
-mapping js file is for both maps, with option to switch between
+Others to be coming soon...
